@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container button {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  background: none;
+}
+
+.container button:hover {
+  cursor: pointer;
+}
